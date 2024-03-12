@@ -1,3 +1,4 @@
+<?php
 function add_current_cat_class_to_parent($dom, $current_slug) {
     $elements = $dom->getElementsByTagName('a');
 
