@@ -1,0 +1,36 @@
+.wc-block-product-categories-list--depth-0 li {
+	position: relative;
+}
+.wc-block-product-categories-list--depth-0 li a {
+	display: block;
+	padding: 8px 5px 8px 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.wc-block-product-categories-list--depth-0 li:not(:first-of-type) {
+	border-top: 1px solid #eeeeee;
+}
+.wc-block-product-categories-list--depth-0 li .open-this {
+	position: absolute;
+	right: 0;
+	width: 40px; 
+	height: 40px; 
+	text-align: center;
+	cursor: pointer;
+	padding: 10px;
+}
+.wc-block-product-categories-list--depth-0 li .open-this svg {
+	display: inline-block;
+	height: 20px;
+}
+.wc-block-product-categories-list--depth-0 li ul.children {
+	display: none; 
+	margin: 0 0 0 5px;
+}
+.wc-block-product-categories .current-cat.cat-parent a:not(.children a) {
+	color:#ED1C24;
+}
+.wc-block-product-categories .children .current-cat a {
+	color:#ED1C24;
+}
